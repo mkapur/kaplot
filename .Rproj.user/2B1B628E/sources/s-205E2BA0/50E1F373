@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588283537907.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2168537217",
+    "id" : "50E1F373",
+    "lastKnownWriteTime" : 1588283534,
+    "last_content_update" : 1588283534,
+    "path" : "C:/Users/mkapur/Dropbox/kaplot/R/hello.R",
+    "project_path" : "R/hello.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
