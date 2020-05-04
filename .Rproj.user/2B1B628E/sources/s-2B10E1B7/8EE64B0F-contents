@@ -1,4 +1,7 @@
-# require(ggthemes)
+#' custom GGPLOT2 theme for insertion
+#' adapted from ggthemes()
+#' @export
+
 theme_solarized_mk <- function (base_size = 12, base_family = "", light = TRUE){
 
   solarized_rebase <- function(light = TRUE) {
