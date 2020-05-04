@@ -13,8 +13,4 @@ ipsum_palette
 \description{
 A muted, qualitative color palette
 }
-\examples{
-library(scales)
-scales::show_col(sunset_pal()(9))
-}
 \keyword{datasets}
