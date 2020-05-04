@@ -1,21 +1,21 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1588283737393.000,
+    "created" : 1588557467938.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
-    "id" : "606DAB50",
-    "lastKnownWriteTime" : 1588283534,
-    "last_content_update" : 1588283534,
+    "hash" : "2358167523",
+    "id" : "426C40CF",
+    "lastKnownWriteTime" : 1588557464,
+    "last_content_update" : 1588557464,
     "path" : "C:/Users/mkapur/Dropbox/kaplot/NAMESPACE",
     "project_path" : "NAMESPACE",
     "properties" : {
-        "cursorPosition" : "1,0",
+        "cursorPosition" : "0,0",
         "scrollLine" : "0"
     },
-    "relative_order" : 2,
+    "relative_order" : 5,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_namespace"

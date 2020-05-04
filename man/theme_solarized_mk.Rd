@@ -2,12 +2,17 @@
 % Please edit documentation in R/theme_solarized_mk.R
 \name{theme_solarized_mk}
 \alias{theme_solarized_mk}
-\title{custom GGPLOT2 theme for insertion
-adapted from ggthemes()}
+\title{Adapted from ggthemes}
 \usage{
 theme_solarized_mk(base_size = 12, base_family = "", light = TRUE)
 }
+\arguments{
+\item{base_size}{as in original}
+
+\item{base_family}{fonts}
+
+\item{light}{T/F switch between solarized light (gold background) or dark (navy bg)}
+}
 \description{
-custom GGPLOT2 theme for insertion
-adapted from ggthemes()
+Adapted from ggthemes
 }

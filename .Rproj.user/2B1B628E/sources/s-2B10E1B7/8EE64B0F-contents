@@ -1,5 +1,7 @@
-#' custom GGPLOT2 theme for insertion
-#' adapted from ggthemes()
+#' Adapted from ggthemes
+#' @param base_size as in original
+#' @param base_family fonts
+#' @param light T/F switch between solarized light (gold background) or dark (navy bg)
 #' @export
 
 theme_solarized_mk <- function (base_size = 12, base_family = "", light = TRUE){
