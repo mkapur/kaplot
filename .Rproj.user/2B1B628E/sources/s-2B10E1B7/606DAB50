@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "4116331488",
+    "hash" : "0",
     "id" : "606DAB50",
     "lastKnownWriteTime" : 1588283534,
     "last_content_update" : 1588283534,
     "path" : "C:/Users/mkapur/Dropbox/kaplot/NAMESPACE",
     "project_path" : "NAMESPACE",
     "properties" : {
+        "cursorPosition" : "1,0",
+        "scrollLine" : "0"
     },
     "relative_order" : 2,
     "source_on_save" : false,

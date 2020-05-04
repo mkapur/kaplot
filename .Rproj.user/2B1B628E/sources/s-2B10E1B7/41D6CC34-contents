@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: M S Kapur
 Maintainer: M S Kapur <kapurm@uw.edu>
 Description:
-Depends: R (>= 3.4.0), dplyr, ggplot2, ggthemes, patchwork, PNWColors, scales
+Depends: R (>= 3.4.0), dplyr, ggplot2, ggthemes, patchwork, PNWColors, scales, tibble
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
