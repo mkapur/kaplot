@@ -33,12 +33,14 @@ sunset_pal <- function() { manual_pal(sunset_palette) }
 #' @export
 scale_colour_ipsum <- function(...) { discrete_scale("colour", "ipsum", ipsum_pal(), ...) }
 
-#' @export
+
 #' @rdname scale_ipsum
+#' @export
 scale_color_ipsum <- scale_colour_ipsum
 
-#' @export
+
 #' @rdname scale_ipsum
+#' @export
 scale_fill_ipsum <- function(...) { discrete_scale("fill", "ipsum", ipsum_pal(), ...) }
 
 #' @md
