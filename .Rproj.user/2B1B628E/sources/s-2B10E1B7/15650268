@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588374444250.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "15650268",
+    "lastKnownWriteTime" : 1588381844,
+    "last_content_update" : 1588381844046,
+    "path" : "C:/Users/mkapur/Dropbox/blog/ggthemes/ggplothemes.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "148,9",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
