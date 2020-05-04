@@ -102,12 +102,17 @@ ggsave(last_plot(),
 ## S4 YOUR OWN CUSTOM WORLD ---
 
 # Requires tibble
+remotes::install_github("mkapur/kaplot")
+library(kaplot)
+
 p1 <- ggplot(mtcars, aes(x = mpg, y = hp, color = factor(gear))) +
   geom_boxplot() +
   theme_solarized_mk(base_size = 14, light = TRUE)
 p2 <- ggplot(mtcars, aes(x = mpg, y = hp, color = factor(gear))) +
   geom_boxplot() +
   theme_solarized_mk(base_size = 14, light = FALSE)
+
+p1 | p2
 
 ggsave(last_plot(),
        file = "C:/Users/mkapur/Dropbox/blog/ggthemes/theme_solarized_mk.png")

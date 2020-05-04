@@ -1,6 +1,5 @@
-require(ggthemes)
-theme_solarized_mk <- function (base_size = 12, base_family = "", light = TRUE)
-{
+# require(ggthemes)
+theme_solarized_mk <- function (base_size = 12, base_family = "", light = TRUE){
 
   solarized_rebase <- function(light = TRUE) {
     basecolors <- deframe(ggthemes::ggthemes_data$solarized$Base)
