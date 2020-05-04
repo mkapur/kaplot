@@ -1,12 +1,12 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1588556867549.000,
+    "created" : 1588557617999.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
-    "id" : "EE1E60D7",
+    "id" : "39BC21F9",
     "lastKnownWriteTime" : 1567108098,
     "last_content_update" : 1567108098,
     "path" : "C:/Users/mkapur/Dropbox/kaplot/R/theme_mk.R",
@@ -15,7 +15,7 @@
         "cursorPosition" : "16,44",
         "scrollLine" : "0"
     },
-    "relative_order" : 7,
+    "relative_order" : 4,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_source"
