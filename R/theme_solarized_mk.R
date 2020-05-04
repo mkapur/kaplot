@@ -6,16 +6,7 @@
 
 theme_solarized_mk <- function (base_size = 12, base_family = "", light = TRUE){
 
-  solarized_rebase <- function(light = TRUE) {
-    basecolors <- deframe(ggthemes::ggthemes_data$solarized$Base)
-    rebase <- if (light) {
-      basecolors[c(paste0("base", 3:0), paste0("base0", 0:3))]
-    } else {
-      basecolors[c(paste0("base0", 3:0), paste0("base", 0:3))]
-    }
-    names(rebase) <- paste0("rebase", c(paste0("0", 3:0), 0:3))
-    rebase
-  }
+
 
 
   rebase <- solarized_rebase(light)
