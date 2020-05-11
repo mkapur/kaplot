@@ -22,11 +22,14 @@ theme_solarized_mk <- function (base_size = 12, base_family = "", light = TRUE){
                   legend.key = element_rect(fill =  rebase["rebase03"],
                                             colour = NULL, linetype = 0),
                   panel.background = element_rect(fill = rebase["rebase03"],
-                                                  colour = rebase["rebase01"]), panel.border = element_blank(),
+                                                  colour = rebase["rebase01"]),
+                  panel.border = element_blank(),
                   panel.grid = element_blank(),
                   plot.background = element_rect(fill = NULL, colour = NA,
                                                  linetype = 0)))
+
   update_geom_defaults("point", list(colour = "grey77"))
+
   update_geom_defaults("boxplot", list(fill =  ifelse(light == TRUE, rebase["rebase03"],
                                                       rebase["rebase00"]),
                                        colour = ifelse(light== TRUE,"grey22","grey77")))
