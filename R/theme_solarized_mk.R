@@ -9,7 +9,7 @@ theme_solarized_mk <- function (base_size = 12, base_family = "", light = TRUE){
   rebase <- solarized_rebase(light)
 
   ret <- (theme_bw(base_size = base_size, base_family = base_family) +
-            theme(text = element_text(colour = "#cfcac1"), #rebase["rebase01"]),
+            theme(text = element_text(colour = "#cfcac1"),
                   title = element_text(color = rebase["rebase0"]),
                   line = element_line(color = rebase["rebase01"]),
                   rect = element_rect(fill = rebase["rebase03"], color = rebase["rebase01"]),
