@@ -5,9 +5,7 @@
 #' @export
 
 theme_solarized_mk <- function (base_size = 12, base_family = "", light = TRUE){
-
   rebase <- solarized_rebase(light)
-
   ret <- (theme_bw(base_size = base_size, base_family = base_family) +
             theme(text = element_text(colour = "#cfcac1"),
                   title = element_text(color = rebase["rebase0"]),
@@ -27,9 +25,7 @@ theme_solarized_mk <- function (base_size = 12, base_family = "", light = TRUE){
                   panel.grid = element_blank(),
                   plot.background = element_rect(fill = NULL, colour = NA,
                                                  linetype = 0)))
-
   update_geom_defaults("point", list(colour = "grey77"))
-
   update_geom_defaults("boxplot", list(fill =  ifelse(light == TRUE, rebase["rebase03"],
                                                       rebase["rebase00"]),
                                        colour = ifelse(light== TRUE,"grey22","grey77")))
