@@ -4,6 +4,8 @@
 
 solarized_rebase <- function(light = TRUE) {
   basecolors <- deframe(ggthemes::ggthemes_data$solarized$Base)
+
+
   rebase <- if (light) {
     basecolors[c(paste0("base", 3:0), paste0("base0", 0:3))]
   } else {

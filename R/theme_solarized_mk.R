@@ -10,8 +10,9 @@ theme_solarized_mk <- function (base_size = 12, base_family = "", light = TRUE){
 
 
   rebase <- solarized_rebase(light)
+
   ret <- (theme_bw(base_size = base_size, base_family = base_family) +
-            theme(text = element_text(colour = rebase["rebase01"]),
+            theme(text = element_text(colour = "#cfcac1", #rebase["rebase01"]),
                   title = element_text(color = rebase["rebase0"]),
                   line = element_line(color = rebase["rebase01"]),
                   rect = element_rect(fill = rebase["rebase03"], color = rebase["rebase01"]),
@@ -25,9 +26,7 @@ theme_solarized_mk <- function (base_size = 12, base_family = "", light = TRUE){
                                             colour = NULL, linetype = 0),
                   panel.background = element_rect(fill = rebase["rebase03"],
                                                   colour = rebase["rebase01"]), panel.border = element_blank(),
-                  panel.grid = element_line(color = rebase["rebase02"]),
-                  panel.grid.major = element_line(color = rebase["rebase02"]),
-                  panel.grid.minor = element_line(color = rebase["rebase02"]),
+                  panel.grid = element_blank(),
                   plot.background = element_rect(fill = NULL, colour = NA,
                                                  linetype = 0)))
   update_geom_defaults("point", list(colour = "grey77"))
