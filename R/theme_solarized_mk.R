@@ -6,9 +6,6 @@
 
 theme_solarized_mk <- function (base_size = 12, base_family = "", light = TRUE){
 
-
-
-
   rebase <- solarized_rebase(light)
 
   ret <- (theme_bw(base_size = base_size, base_family = base_family) +
